@@ -30,7 +30,7 @@ steps:
       $githubDir = $stageDir +"\"+"gitHub"
       $destination = $githubDir +"\"+"GitHubTest.git"
       #please provide your username
-      $alias = 'b.gerginchev:'+ "$(Github.PAT)"
+      $alias = 'BoyanGerginchev:'+ "$(Github.PAT)"
       #Please make sure, you remove https from azure-repo-clone-url
       $sourceURL = 'https://$(AzureDevOps.PAT)@dev.azure.com/electProLtd/GitHubTest/_git/GitHubTest'
       #Please make sure, you remove https from github-repo-clone-url
