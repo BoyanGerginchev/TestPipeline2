@@ -9,7 +9,7 @@
       Write-Host ' - - - - - - - - - - - - - - - - - - - - - - - - - '
       $stageDir = '$(Build.SourcesDirectory)' | Split-Path
       $githubDir = $stageDir +"\"+"gitHub"
-      $destination = $githubDir +"\"+"TestPipelineSync.git"
+      $destination = $githubDir +"\"+"<TestPipelineSync.git>"
       #please provide your username
       $alias = 'b.gerginchev@protonmail.com:'+ "$(Github.PAT)"
       #Please make sure, you remove https from azure-repo-clone-url
