@@ -32,7 +32,7 @@ steps:
       #please provide your username
       $alias = 'b.gerginchev@protonmail.com:'+ "$(Github.PAT)"
       #Please make sure, you remove https from azure-repo-clone-url
-      $sourceURL = 'https://$(AzureDevOps.PAT)@dev.azure.com/electProLtd/GitHubTest/_git/GitHubTest.git'
+      $sourceURL = 'https://$(AzureDevOps.PAT)@dev.azure.com/electProLtd/GitHubTest/_git/GitHubTest'
       #Please make sure, you remove https from github-repo-clone-url
       $destURL = 'https://' + $alias + '@github.com/BoyanGerginchev/TestPipelineSync.git'
       #Check if the parent directory exists and delete
